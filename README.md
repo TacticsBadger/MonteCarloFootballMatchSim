@@ -40,3 +40,4 @@ At the end of the simulations, a csv file is written with the following data:
 - win probability
 - expected points (xPts-A)
 
+How to run the program: python3 MC_MatchSimSimple.py
