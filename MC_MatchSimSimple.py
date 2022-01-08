@@ -3,7 +3,7 @@
 # Last Updated: January 08, 2022
 '''
 Brief: Monte Carlo simulations for predicting match outcomes.
-Needs user input: home team, away team, gameweek, number of simulations
+Needs user input: keyboard or csv. 
 '''
 import sys
 import math
