@@ -1,5 +1,5 @@
-# MonteCarloMatchSim
-Monte Carlo Match Simulator
+# MonteCarloFootballMatchSim
+Monte Carlo Football Match Simulator
 
 Brief: Monte Carlo simulations for predicting football match outcomes.
 
