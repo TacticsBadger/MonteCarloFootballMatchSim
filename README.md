@@ -2,7 +2,9 @@
 Monte Carlo Match Simulator
 
 Brief: Monte Carlo simulations for predicting football match outcomes.
+
 Programming language: Python
+
 Library dependencies: 
 
 - pandas
