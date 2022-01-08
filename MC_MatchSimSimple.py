@@ -53,7 +53,7 @@ if choice == "Keyboard":
     for i in range(num_simulations):
         #get simulation start time
         start_time = time.time()
-        #run the sim - generate a random value that falls within the target home/away +/- standard devs
+        #run the sim - generate a random Poisson distribution
         target_home_goals_scored = np.random.poisson(input_home_team_xg)
         target_away_goals_scored = np.random.poisson(input_away_team_xg)
         home_win = 0
@@ -239,7 +239,7 @@ elif choice == "csv":
         for i in range(num_simulations):
             #get simulation start time
             start_time = time.time()
-            #run the sim - generate a random value that falls within the target home/away +/- standard devs
+            #run the sim - generate a random Poisson distribution
             target_home_goals_scored = np.random.poisson(input_home_team_xg)
             target_away_goals_scored = np.random.poisson(input_away_team_xg)
             home_win = 0
