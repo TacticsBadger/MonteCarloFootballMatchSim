@@ -32,7 +32,7 @@ If the event the "csv" choice is selected, a csv filename will be requested. The
 
 Team-H, xG-H, Team-A, xG-A.
 
-I have prepared and added a csv files with all the 191 games played in the Premier League this season (2021-2022) as an example. For each game in the file, a simulation will be conducted as if it were on a one-game basis. All the steps outlined above are valid for this choice as well. 
+I have prepared and added a csv file with all the 191 games played in the Premier League this season (2021-2022) as an example. For each game in the file, a simulation will be conducted as if it were on a one-game basis. All the steps outlined above are valid for this choice as well. 
 At the end of the simulations, a csv file is written with the following data:
 
 - home team
