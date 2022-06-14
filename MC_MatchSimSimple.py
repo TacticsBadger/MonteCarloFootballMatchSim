@@ -102,6 +102,7 @@ if choice == "Keyboard":
     print(sim_table_stats)
     
     # get the score matrix
+    total_scores = len(score_mat)
     max_score = 5
     assemble_scores = [[0 for x in range(max_score)] for y in range(max_score)]
     for i in range(total_scores):
@@ -264,6 +265,7 @@ elif choice == "csv":
         print(sim_table_stats)
         
         # get the score matrix
+        total_scores = len(score_mat)
         max_score = 5
         assemble_scores = [[0 for x in range(max_score)] for y in range(max_score)]
         for i in range(total_scores):
