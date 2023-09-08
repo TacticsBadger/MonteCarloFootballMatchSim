@@ -269,56 +269,56 @@ elif choice == "csv":
         max_score = 5
         assemble_scores = [[0 for x in range(max_score)] for y in range(max_score)]
         for i in range(total_scores):
-        if score_mat[i][0] == 0 and score_mat[i][1] == 0:
-            assemble_scores[0][0] += 1
-        elif score_mat[i][0] == 0 and score_mat[i][1] == 1:
-            assemble_scores[0][1] += 1
-        elif score_mat[i][0] == 0 and score_mat[i][1] == 2:
-            assemble_scores[0][2] += 1     
-        elif score_mat[i][0] == 0 and score_mat[i][1] == 3:
-            assemble_scores[0][3] += 1     
-        elif score_mat[i][0] == 0 and score_mat[i][1] == 4:
-            assemble_scores[0][4] += 1    
-        elif score_mat[i][0] == 1 and score_mat[i][1] == 0:
-            assemble_scores[1][0] += 1
-        elif score_mat[i][0] == 1 and score_mat[i][1] == 1:
-            assemble_scores[1][1] += 1     
-        elif score_mat[i][0] == 1 and score_mat[i][1] == 2:
-            assemble_scores[1][2] += 1     
-        elif score_mat[i][0] == 1 and score_mat[i][1] == 3:
-            assemble_scores[1][3] += 1     
-        elif score_mat[i][0] == 1 and score_mat[i][1] == 4:
-            assemble_scores[1][4] += 1
-        elif score_mat[i][0] == 2 and score_mat[i][1] == 0:
-            assemble_scores[2][0] += 1
-        elif score_mat[i][0] == 2 and score_mat[i][1] == 1:
-            assemble_scores[2][1] += 1     
-        elif score_mat[i][0] == 2 and score_mat[i][1] == 2:
-            assemble_scores[2][2] += 1     
-        elif score_mat[i][0] == 2 and score_mat[i][1] == 3:
-            assemble_scores[2][3] += 1     
-        elif score_mat[i][0] == 2 and score_mat[i][1] == 4:
-            assemble_scores[2][4] += 1
-        elif score_mat[i][0] == 3 and score_mat[i][1] == 0:
-            assemble_scores[3][0] += 1
-        elif score_mat[i][0] == 3 and score_mat[i][1] == 1:
-            assemble_scores[3][1] += 1     
-        elif score_mat[i][0] == 3 and score_mat[i][1] == 2:
-            assemble_scores[3][2] += 1     
-        elif score_mat[i][0] == 3 and score_mat[i][1] == 3:
-            assemble_scores[3][3] += 1     
-        elif score_mat[i][0] == 3 and score_mat[i][1] == 4:
-            assemble_scores[3][4] += 1            
-        elif score_mat[i][0] == 4 and score_mat[i][1] == 0:
-            assemble_scores[4][0] += 1
-        elif score_mat[i][0] == 4 and score_mat[i][1] == 1:
-            assemble_scores[4][1] += 1     
-        elif score_mat[i][0] == 4 and score_mat[i][1] == 2:
-            assemble_scores[4][2] += 1     
-        elif score_mat[i][0] == 4 and score_mat[i][1] == 3:
-            assemble_scores[4][3] += 1     
-        elif score_mat[i][0] == 4 and score_mat[i][1] == 4:
-            assemble_scores[4][4] += 1     
+            if score_mat[i][0] == 0 and score_mat[i][1] == 0:
+                assemble_scores[0][0] += 1
+            elif score_mat[i][0] == 0 and score_mat[i][1] == 1:
+                assemble_scores[0][1] += 1
+            elif score_mat[i][0] == 0 and score_mat[i][1] == 2:
+                assemble_scores[0][2] += 1
+            elif score_mat[i][0] == 0 and score_mat[i][1] == 3:
+                assemble_scores[0][3] += 1  
+            elif score_mat[i][0] == 0 and score_mat[i][1] == 4:
+                assemble_scores[0][4] += 1    
+            elif score_mat[i][0] == 1 and score_mat[i][1] == 0:
+                assemble_scores[1][0] += 1
+            elif score_mat[i][0] == 1 and score_mat[i][1] == 1:
+                assemble_scores[1][1] += 1     
+            elif score_mat[i][0] == 1 and score_mat[i][1] == 2:
+                assemble_scores[1][2] += 1     
+            elif score_mat[i][0] == 1 and score_mat[i][1] == 3:
+                assemble_scores[1][3] += 1     
+            elif score_mat[i][0] == 1 and score_mat[i][1] == 4:
+                assemble_scores[1][4] += 1
+            elif score_mat[i][0] == 2 and score_mat[i][1] == 0:
+                assemble_scores[2][0] += 1
+            elif score_mat[i][0] == 2 and score_mat[i][1] == 1:
+                assemble_scores[2][1] += 1     
+            elif score_mat[i][0] == 2 and score_mat[i][1] == 2:
+                assemble_scores[2][2] += 1     
+            elif score_mat[i][0] == 2 and score_mat[i][1] == 3:
+                assemble_scores[2][3] += 1     
+            elif score_mat[i][0] == 2 and score_mat[i][1] == 4:
+                assemble_scores[2][4] += 1
+            elif score_mat[i][0] == 3 and score_mat[i][1] == 0:
+                assemble_scores[3][0] += 1
+            elif score_mat[i][0] == 3 and score_mat[i][1] == 1:
+                assemble_scores[3][1] += 1     
+            elif score_mat[i][0] == 3 and score_mat[i][1] == 2:
+                assemble_scores[3][2] += 1     
+            elif score_mat[i][0] == 3 and score_mat[i][1] == 3:
+                assemble_scores[3][3] += 1     
+            elif score_mat[i][0] == 3 and score_mat[i][1] == 4:
+                assemble_scores[3][4] += 1            
+            elif score_mat[i][0] == 4 and score_mat[i][1] == 0:
+                assemble_scores[4][0] += 1
+            elif score_mat[i][0] == 4 and score_mat[i][1] == 1:
+                assemble_scores[4][1] += 1     
+            elif score_mat[i][0] == 4 and score_mat[i][1] == 2:
+                assemble_scores[4][2] += 1     
+            elif score_mat[i][0] == 4 and score_mat[i][1] == 3:
+                assemble_scores[4][3] += 1     
+            elif score_mat[i][0] == 4 and score_mat[i][1] == 4:
+                assemble_scores[4][4] += 1     
             
         #calculate percentages and print the score matrix
         print ("**********************************")        
