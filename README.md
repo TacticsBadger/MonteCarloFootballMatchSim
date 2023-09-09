@@ -32,7 +32,8 @@ If the event the "csv" choice is selected, a csv filename will be requested. The
 
 Team-H, xG-H, Team-A, xG-A.
 
-I have prepared and added two csv files, with all the 380 games played in the Premier League in the 2021-2022 season and 187 games played so far in in the 2022-2023 season. For each game in the file, a simulation will be conducted as if it were on a one-game basis. All the steps outlined above are valid for this choice as well. 
+UPDATE 09-09-2023:
+I have prepared and added three csv files, with all the 380 games played in the Premier League seasons 2021-2022 and 2022-2023 season, and the first 4 games of the 2023-2024 season. For each game in the file, a simulation will be conducted as if it were on a one-game basis. All the steps outlined above are valid for this choice as well. 
 At the end of the simulations, a csv file is written with the following data:
 
 - home team
