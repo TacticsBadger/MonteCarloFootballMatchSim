@@ -3,6 +3,8 @@ Monte Carlo Football Match Simulator
 
 Brief: Monte Carlo simulations for predicting football match outcomes.
 
+Current version: 1.5.0
+
 Programming language: Python
 
 Library dependencies: 
@@ -10,7 +12,7 @@ Library dependencies:
 - pandas
 - numpy
 - prettytable
-
+- plotly
 
 Needs user input: can choose to be on a one-game basis (Keyboard) or from csv file (csv).
 
@@ -32,8 +34,7 @@ If the event the "csv" choice is selected, a csv filename will be requested. The
 
 Team-H, xG-H, Team-A, xG-A.
 
-UPDATE 09-09-2023:
-I have prepared and added three csv files, with all the 380 games played in the Premier League seasons 2021-2022 and 2022-2023 season, and the first 4 games of the 2023-2024 season. For each game in the file, a simulation will be conducted as if it were on a one-game basis. All the steps outlined above are valid for this choice as well. 
+There are three csv files in this repo, with all the 380 games played in the Premier League seasons 2021-2022 and 2022-2023 season, and the first 4 games of the 2023-2024 season. For each game in the file, a simulation will be conducted as if it were on a one-game basis. All the steps outlined above are valid for this choice as well. 
 At the end of the simulations, a csv file is written with the following data:
 
 - home team
