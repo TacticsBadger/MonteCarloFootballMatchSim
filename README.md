@@ -30,7 +30,7 @@ At the end of the simulations, a table with statistics is presented, including t
 Afterwards, the score matrix is printed, with % probabilities gives for each possible score. 
 At the end, a short summary of the entire program is given.
 
-If the event the "csv" choice is selected, a csv filename will be requested. The header of the csv file must be: 
+In the event the "csv" choice is selected, a csv filename will be requested. The header of the csv file must be: 
 
 Team-H, xG-H, Team-A, xG-A.
 
@@ -43,5 +43,7 @@ At the end of the simulations, a csv file is written with the following data:
 - away team
 - win probability
 - expected points (xPts-A)
+
+Additionally, a Plotly interactive html file will be generated, displaying the final "xPTS League Table". 
 
 How to run the program: python3 MC_MatchSimSimple.py
