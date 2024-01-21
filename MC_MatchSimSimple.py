@@ -3,7 +3,7 @@
 # Github          : https://github.com/TacticsBadger/MonteCarloFootballMatchSim/
 # Version 1.0.0   : November 17, 2021
 # Current version : 1.5.0
-# Last Updated    : September 10, 2023
+# Last Updated    : January  21, 2024
 
 '''
 Brief: Monte Carlo simulations for predicting match outcomes.
@@ -26,7 +26,7 @@ print("*************************** Tactics Not Antics *************************"
 print("*************          Monte Carlo Match Simulator        **************")
 print("*************        Version 1.0.0: November  17, 2021    **************")
 print("*************        Version 1.5.0: September 09, 2023    **************")
-print("*************        Last Update  : September 10, 2023    **************")
+print("*************        Last Update  : January   21, 2024    **************")
 print("************************************************************************")
 print("*************************** PL TEAMS 2023-24 ***************************")
 print("* Arsenal        | Aston Villa    | Brentford          | Brighton      *")
@@ -221,10 +221,10 @@ elif choice == "csv":
                 'Manchester Utd', 'Chelsea', 'Fulham', 'Newcastle Utd', 'Wolves',
                 'Bournemouth', 'Sheffield Utd', 'Everton', 'Luton Town', 'Burnley')
     # this dictionary will have to be updated throughout the season
-    pts_2324=dict({'Manchester City': 12, 'Tottenham': 10, 'Liverpool': 10, 'West Ham': 10, 'Arsenal': 10, 
-                'Brighton': 9, 'Crystal Palace': 7, 'Brentford': 6, 'Nottingham Forest': 6, 'Aston Villa': 6, 
-                'Manchester Utd': 6, 'Chelsea': 4, 'Fulham': 4, 'Newcastle Utd': 3, 'Wolves': 3,
-                'Bournemouth': 2, 'Sheffield Utd': 1, 'Everton': 1, 'Luton Town': 0, 'Burnley': 0})
+    pts_2324=dict({'Liverpool': 48, 'Manchester City': 43, 'Arsenal': 43, 'Aston Villa': 43, 'Tottenham': 40, 
+                   'West Ham' : 35, 'Manchester Utd' : 32, 'Brighton':31, 'Chelsea': 31, 'Newcastle Utd': 29,
+                   'Wolves': 28, 'Bournemouth': 25, 'Fulham': 24, 'Brentford': 22, 'Crystal Palace': 21,
+                   'Nottingham Forest': 20, 'Everton': 17, 'Luton Town': 16, 'Burnley': 12, 'Sheffield Utd': 10})
                 
     season = input("* Select season (21/22, 22/23, 23/24): ")
     if season == "21/22":
